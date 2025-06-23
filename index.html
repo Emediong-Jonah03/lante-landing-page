@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lante</title>
+    <title>Lanterry - Responsive Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index .css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>Lantery</h1>
+            <h1>Lanterry</h1>
+        </div>
+
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
         </div>
 
         <div class="navbar">
             <nav>
-                <ul>
+                <ul class="nav-menu">
                     <li>Home</li>
                     <li>Pricing</li>
                     <li>About Us</li>
@@ -35,39 +39,45 @@
     </header>
     
     <main>
-        <img src="bak.jpg" alt="background" class="bg">
-        <div class="text">
-            <p>
-                The best way to showcase your product
-            </p>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="text">
+                    <p>
+                        The best way to showcase your product
+                    </p>
+                </div>
+                <div class="description">
+                    <p>
+                        Here you can put a description of your product
+                    </p>
+                </div>
+                <div class="btns">
+                    <button class="btn1"> Try for free</button>
+                    <button class="btn2">See how it works</button>
+                </div> 
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Product showcase" class="bg">
+            </div>
         </div>
-        <div class="description">
-            <p>
-                Here you can put a decription of your product
-            </p>
-        </div>
-        <div class="btns">
-            <button class="btn1"> Try for free</button>
-            <button class="btn2">See how it works</button>
-        </div> 
-        <section>
+        
+        <section class="solution-section">
             <div class="con">
                 <div class="intro-bak"></div>
-                    <div class="intro">
-                        <h2>
-                            Introducing good solution
-                        </h2>
-                        <p>
-                            Join our community and experience the benefits today!
-                        </p>
-                        <button class="btn1" 
-                        onclick=" alert('Thanks')">Try for free</button>
-                    </div>
+                <div class="intro">
+                    <h2>
+                        Introducing good solution
+                    </h2>
+                    <p>
+                        Join our community and experience the benefits today!
+                    </p>
                 </div>
             </div>
         </section>  
     </main>
-    <section>
+    
+    <section class="testimonials-section">
         <div class="testimonial">
             <p>Testimonials</p>
         </div>
@@ -76,7 +86,7 @@
                 <div class="ups">
                     <p>"Ever since I knew Lantery I have never regretted doing business with it"</p>
                     <div class="star">
-                     <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
                     </div>
                     <h1>Mary Anthony</h1>
                     <p class="title">Lead Manager</p>
@@ -84,7 +94,7 @@
                 <div class="ups">
                     <p>"I love lantery suitable for my business"</p>
                     <div class="star">
-                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
                        </div>
                     <h1>Rebecca Samuel</h1>
                     <p class="title">CTO</p>
@@ -92,7 +102,7 @@
                 <div class="ups">
                     <p>"I recommend Lantery for your business"</p>
                     <div class="star">
-                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
                        </div>
                     <h1>Peter Tom</h1>
                     <p class="title">Product Manager</p>
@@ -100,59 +110,72 @@
             </div>
         </div>
     </section>
-    <section>
+    
+    <section class="cta-section">
         <div class="intro-d">
-            <img src="microsoft-365-oUbzU87d1Gc-unsplash.jpg" alt="background" class="bg2">
             <h2>
                 Get started with lantery
             </h2>
             <p>
-                Join now!
+                Join now and transform your business!
             </p>
             <button class="btn1">Sign Up now</button>
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Team working together" class="cta-image">
         </div>
     </section>
+    
     <footer>
-        <div class="fot">
-            <div class="flogo">
-                <h1>Lantery</h1>
-            </div>
+        <div class="footer-content">
+            <div class="fot">
+                <div class="footer-col">
+                    <div class="flogo">
+                        <h1>Lanterry</h1>
+                    </div>
+                    <p>Transforming businesses with innovative solutions since 2020.</p>
+                </div>
 
-            <div class="link">
-                <ul>
-                    <li>Home</li>
-                    <li>Pricing</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>About Us</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
 
-            <div class="socials">
-                <ul>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>X</li>
-                    <li>Youtube</li>
-                </ul>
+                <div class="footer-col">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Cookie Policy</li>
+                        <li>GDPR Compliance</li>
+                    </ul>
+                </div>
             </div>
-            <div class="pem">
-                <ul>
-                    <li>Privacy Policy</li>
-                    <li>Terms of sercive</li>
-                </ul>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Lanterry - All rights reserved</p>
             </div>
-        </div>
-        <div>
-            <p>
-                2025 Lantery
-            </p>
-            <p>
-                &#169; All rights reserved
-            </p>
         </div>
     </footer>
+    
     <script>
-        // alert('HEllO EVERYONE')
+        // Mobile navigation toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
     </script>
 </body>        
 </html>
